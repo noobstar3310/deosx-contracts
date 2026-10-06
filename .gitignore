@@ -1,0 +1,10 @@
+# Foundry build output
+out/
+cache/
+# Local-chain and dry-run broadcasts; real testnet broadcasts are kept as a deployment record
+broadcast/*/31337/
+broadcast/**/dry-run/
+# solidity-auditor scan memory and run files (local only)
+.solidity-auditor/
+# Secrets: RPC URLs, Etherscan key, Safe address
+.env*
